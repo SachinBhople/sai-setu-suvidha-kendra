@@ -20,7 +20,7 @@ const translations = {
 
     // Hero Section
     heroTitle: 'Sai Setu Suvidha Kendra',
-    address: 'Dongaron Kawad, Tq Phulambri, Dist Chhatrapati Sambhajinagar',
+    address: 'Dongargaon Kawad, Tq Phulambri, Dist Chhatrapati Sambhajinagar',
     heroSubtitle: 'Your Trusted Partner for Government Services & Educational Applications',
     heroDescription: 'Complete assistance for certificates, admissions, scholarships, and business registrations. Professional service with guaranteed results.',
     getStarted: 'Get Started',
@@ -58,7 +58,7 @@ const translations = {
 
     // About
     aboutTitle: 'About Sai Setu Suvidha Kendra',
-    aboutDesc: 'Located in Dongaron Kawad, Tq Phulambri, Dist Chhatrapati Sambhajinagar, we have been serving the community with reliable government and educational services. Our experienced team ensures hassle-free processing of all your important documents.',
+    aboutDesc: 'Located in Dongargaon Kawad, Tq Phulambri, Dist Chhatrapati Sambhajinagar, we have been serving the community with reliable government and educational services. Our experienced team ensures hassle-free processing of all your important documents.',
     aboutOwner: 'Proprietor: Raju Bodke',
     aboutExperience: 'Years of Experience',
     aboutServices: 'Services Offered',
@@ -97,7 +97,7 @@ const translations = {
 
     // Hero Section
     heroTitle: 'साई सेतु सुविधा केंद्र',
-    address: 'डोंगारोण कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर',
+    address: 'डोंगरगाव  कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर',
     heroSubtitle: 'सरकारी सेवाओं और शैक्षणिक आवेदनों के लिए आपका विश्वसनीय साझेदार',
     heroDescription: 'प्रमाणपत्र, प्रवेश, छात्रवृत्ति और व्यापार पंजीकरण के लिए पूर्ण सहायता। गारंटीशुदा परिणाम के साथ पेशेवर सेवा।',
     getStarted: 'शुरू करें',
@@ -135,7 +135,7 @@ const translations = {
 
     // About
     aboutTitle: 'साई सेतु सुविधा केंद्र के बारे में',
-    aboutDesc: 'डोंगारोण कवाड़, तहसील फुलंब्री, जिला छत्रपति संभाजीनगर में स्थित, हम विश्वसनीय सरकारी और शैक्षणिक सेवाओं के साथ समुदाय की सेवा कर रहे हैं। हमारी अनुभवी टीम आपके सभी महत्वपूर्ण दस्तावेजों की परेशानी-मुक्त प्रक्रिया सुनिश्चित करती है।',
+    aboutDesc: 'डोंगरगाव  कवाड़, तहसील फुलंब्री, जिला छत्रपति संभाजीनगर में स्थित, हम विश्वसनीय सरकारी और शैक्षणिक सेवाओं के साथ समुदाय की सेवा कर रहे हैं। हमारी अनुभवी टीम आपके सभी महत्वपूर्ण दस्तावेजों की परेशानी-मुक्त प्रक्रिया सुनिश्चित करती है।',
     aboutOwner: 'मालिक: राजू बोडके',
     aboutExperience: 'वर्षों का अनुभव',
     aboutServices: 'सेवाएं उपलब्ध',
@@ -174,7 +174,7 @@ const translations = {
 
     // Hero Section
     heroTitle: 'साई सेतु सुविधा केंद्र',
-    address: 'डोंगारोण कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर',
+    address: 'डोंगरगाव  कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर',
     heroSubtitle: 'सरकारी सेवा आणि शैक्षणिक अर्जांसाठी तुमचा विश्वासार्ह भागीदार',
     heroDescription: 'प्रमाणपत्रे, प्रवेश, शिष्यवृत्ती आणि व्यवसाय नोंदणीसाठी संपूर्ण सहाय्य। हमीशुदा परिणामासह व्यावसायिक सेवा.',
     getStarted: 'सुरुवात करा',
@@ -212,7 +212,7 @@ const translations = {
 
     // About
     aboutTitle: 'साई सेतु सुविधा केंद्राबद्दल',
-    aboutDesc: 'डोंगारोण कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर येथे स्थित, आम्ही विश्वसनीय सरकारी आणि शैक्षणिक सेवांसह समुदायाची सेवा करत आहोत. आमची अनुभवी टीम तुमच्या सर्व महत्त्वाच्या कागदपत्रांची त्रासरहित प्रक्रिया सुनिश्चित करते.',
+    aboutDesc: ' डोंगरगाव कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर येथे स्थित, आम्ही विश्वसनीय सरकारी आणि शैक्षणिक सेवांसह समुदायाची सेवा करत आहोत. आमची अनुभवी टीम तुमच्या सर्व महत्त्वाच्या कागदपत्रांची त्रासरहित प्रक्रिया सुनिश्चित करते.',
     aboutOwner: 'मालक: राजू बोडके',
     aboutExperience: 'वर्षांचा अनुभव',
     aboutServices: 'सेवा उपलब्ध',

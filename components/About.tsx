@@ -49,7 +49,7 @@ export default function About() {
                   <MapPin className="w-5 h-5 text-blue-600" />
                   <div>
                     <div className="text-sm text-gray-600">Location</div>
-                    <div className="font-medium text-gray-900">Dongaron Kawad</div>
+                    <div className="font-medium text-gray-900">Dongargaon Kawad</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">

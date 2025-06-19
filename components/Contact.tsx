@@ -59,7 +59,7 @@ export default function Contact() {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">{t('contactAddress')}</h4>
                     <p className="text-gray-600">
-                      Dongaron Kawad<br />
+                      Dongargaon Kawad<br />
                       Tq Phulambri<br />
                       Dist Chhatrapati Sambhajinagar<br />
                       Maharashtra, India

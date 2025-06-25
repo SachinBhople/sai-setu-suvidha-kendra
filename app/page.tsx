@@ -33,6 +33,7 @@ import Footer from '@/components/Footer';
 import { LanguageProvider } from '@/contexts/LanguageContext';
 import { MessageCircle } from 'lucide-react'; // You can use a WhatsApp-like icon
 import { FaWhatsapp } from "react-icons/fa";
+import ShopCarousel from '@/components/ui/carsoulel';
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
       <div className="min-h-screen relative">
         <Header />
         <main>
+          <ShopCarousel />
           <Hero />
           <Services />
           <About />

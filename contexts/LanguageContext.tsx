@@ -31,10 +31,30 @@ const translations = {
     servicesSubtitle: 'Complete range of government and educational services',
 
     // Service Items
+    setuSuvidhaForms: 'Setu  Suvidha',
+    setuSuvidhaDesc1: 'Residence Certificate,  ',
+    setuSuvidhaDesc2: ' Income Certificate  ',
+    setuSuvidhaDesc3: 'Caste Certificate ',
+    setuSuvidhaDesc4: 'Age, Nationality and Domicile Certificate ',
+    setuSuvidhaDesc5: 'Ews Certificate ',
+
+    mahadbtForms: 'Mahadbt Schemes',
+    mahadbtdesc1: 'Subsidy for ginger crop,  ',
+    mahadbtdesc2: ' onion paddy  ',
+    mahadbtdesc3: 'tractor subsidy ',
+    mahadbtdesc4: 'orchard cultivation ',
+    mahadbtdesc5: 'drip irrigation ',
+
+    pikvimaform: 'Crop Insurance Schemes',
+    pikvimadesc1: 'Rabbi Season ',
+    pikvimadesc2: 'Kharif Season ',
+
     admissionForms: 'College Admission Forms',
     admissionDesc: 'Assistance with admission applications for all colleges and universities',
+
     scholarshipForms: 'Scholarship Applications',
     scholarshipDesc: 'Help with various scholarship applications and documentation',
+
     govExamForms: 'Government Exam Forms',
     govExamDesc: 'Registration for competitive exams and government job applications',
     incomeCert: 'Income Certificate',
@@ -96,7 +116,7 @@ const translations = {
     contact: 'संपर्क',
 
     // Hero Section
-    heroTitle: 'साई सेतु सुविधा केंद्र',
+    heroTitle: 'साई डिजिटल ऑनलाईन सेवा केंद्र ',
     address: 'डोंगरगाव  कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर',
     heroSubtitle: 'सरकारी सेवाओं और शैक्षणिक आवेदनों के लिए आपका विश्वसनीय साझेदार',
     heroDescription: 'प्रमाणपत्र, प्रवेश, छात्रवृत्ति और व्यापार पंजीकरण के लिए पूर्ण सहायता। गारंटीशुदा परिणाम के साथ पेशेवर सेवा।',
@@ -108,6 +128,25 @@ const translations = {
     servicesSubtitle: 'सरकारी और शैक्षणिक सेवाओं की पूरी श्रृंखला',
 
     // Service Items
+    setuSuvidhaForms: ' सेतु सुविधा',
+    setuSuvidhaDesc1: 'निवास प्रमाण पत्र,  ',
+    setuSuvidhaDesc2: ' आय प्रमाण पत्र  ',
+    setuSuvidhaDesc3: 'जाति प्रमाण पत्र ',
+    setuSuvidhaDesc4: 'आयु, राष्ट्रीयता और निवास प्रमाणपत्र',
+    setuSuvidhaDesc5: 'ईडब्ल्यूएस प्रमाणपत्र',
+
+    mahadbtForms: 'महाडीबीटी योजनाएँ',
+    mahadbtdesc1: 'अदरक फसल के लिए सब्सिडी',
+    mahadbtdesc2: 'प्याज और धान के लिए सब्सिडी',
+    mahadbtdesc3: 'ट्रैक्टर सब्सिडी',
+    mahadbtdesc4: 'बागवानी के लिए सब्सिडी',
+    mahadbtdesc5: 'ड्रिप सिंचाई के लिए सब्सिडी',
+
+    pikvimaform: 'फसल बीमा योजनाएँ',
+    pikvimadesc1: 'रबी मौसम ',
+    pikvimadesc2: 'खरीफ मौसम ',
+
+
     admissionForms: 'कॉलेज प्रवेश फॉर्म',
     admissionDesc: 'सभी कॉलेजों और विश्वविद्यालयों के लिए प्रवेश आवेदन में सहायता',
     scholarshipForms: 'छात्रवृत्ति आवेदन',
@@ -134,7 +173,7 @@ const translations = {
     aadhaarDesc: 'आधार नामांकन, अपडेट और सुधार',
 
     // About
-    aboutTitle: 'साई सेतु सुविधा केंद्र के बारे में',
+    aboutTitle: 'साई डिजिटल ऑनलाईन सेवा केंद्र  के बारे में',
     aboutDesc: 'डोंगरगाव  कवाड़, तहसील फुलंब्री, जिला छत्रपति संभाजीनगर में स्थित, हम विश्वसनीय सरकारी और शैक्षणिक सेवाओं के साथ समुदाय की सेवा कर रहे हैं। हमारी अनुभवी टीम आपके सभी महत्वपूर्ण दस्तावेजों की परेशानी-मुक्त प्रक्रिया सुनिश्चित करती है।',
     aboutOwner: 'मालिक: राजू बोडके',
     aboutExperience: 'वर्षों का अनुभव',
@@ -173,7 +212,7 @@ const translations = {
     contact: 'संपर्क',
 
     // Hero Section
-    heroTitle: 'साई सेतु सुविधा केंद्र',
+    heroTitle: 'साई डिजिटल ऑनलाईन सेवा केंद्र ',
     address: 'डोंगरगाव  कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर',
     heroSubtitle: 'सरकारी सेवा आणि शैक्षणिक अर्जांसाठी तुमचा विश्वासार्ह भागीदार',
     heroDescription: 'प्रमाणपत्रे, प्रवेश, शिष्यवृत्ती आणि व्यवसाय नोंदणीसाठी संपूर्ण सहाय्य। हमीशुदा परिणामासह व्यावसायिक सेवा.',
@@ -185,6 +224,27 @@ const translations = {
     servicesSubtitle: 'सरकारी आणि शैक्षणिक सेवांची संपूर्ण श्रेणी',
 
     // Service Items
+    setuSuvidhaForms: 'सेतु सुविधा',
+    setuSuvidhaDesc1: 'रहिवासी,  ',
+    setuSuvidhaDesc2: ' उत्त्पन्न दाखला  ',
+    setuSuvidhaDesc3: 'जात प्रमाणपत्र ',
+    setuSuvidhaDesc4: 'वय, राष्ट्रीयता आणि अधिवास प्रमाणपत्र',
+    setuSuvidhaDesc5: 'इडब्ल्यूएस प्रमाणपत्र',
+
+
+    mahadbtForms: 'महाडीबीटी योजना',
+    mahadbtdesc1: 'आले पीकासाठी अनुदान',
+    mahadbtdesc2: 'कांदा चाळीसाठी अनुदान',
+    mahadbtdesc3: 'ट्रॅक्टर अनुदान',
+    mahadbtdesc4: 'फळबाग लागवडीसाठी अनुदान',
+    mahadbtdesc5: 'ठिबक सिंचनासाठी अनुदान',
+
+    pikvimaform: 'पीक विमा योजना',
+    pikvimadesc1: 'रब्बी हंगाम ',
+    pikvimadesc2: 'खरीप हंगाम ',
+
+
+
     admissionForms: 'महाविद्यालयीन प्रवेश फॉर्म',
     admissionDesc: 'सर्व महाविद्यालये आणि विद्यापीठांसाठी प्रवेश अर्जामध्ये सहाय्य',
     scholarshipForms: 'शिष्यवृत्ती अर्ज',
@@ -211,7 +271,7 @@ const translations = {
     aadhaarDesc: 'आधार नावनोंदणी, अपडेट आणि सुधारणा',
 
     // About
-    aboutTitle: 'साई सेतु सुविधा केंद्राबद्दल',
+    aboutTitle: 'साई डिजिटल ऑनलाईन सेवा केंद्राबद्दल',
     aboutDesc: ' डोंगरगाव कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर येथे स्थित, आम्ही विश्वसनीय सरकारी आणि शैक्षणिक सेवांसह समुदायाची सेवा करत आहोत. आमची अनुभवी टीम तुमच्या सर्व महत्त्वाच्या कागदपत्रांची त्रासरहित प्रक्रिया सुनिश्चित करते.',
     aboutOwner: 'मालक: राजू बोडके',
     aboutExperience: 'वर्षांचा अनुभव',

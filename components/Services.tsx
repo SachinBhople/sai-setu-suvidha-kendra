@@ -1,7 +1,23 @@
+
+
 'use client';
 
 import React from 'react';
-import { GraduationCap, Award, FileText, DollarSign, Home, Users, AlignCenterVertical as Certificate, CheckSquare, Building2, CreditCard, UserCheck, BookOpen } from 'lucide-react';
+import {
+  GraduationCap,
+  Award,
+  FileText,
+  DollarSign,
+  Home,
+  Users,
+  AlignCenterVertical as Certificate,
+  CheckSquare,
+  Building2,
+  CreditCard,
+  UserCheck,
+  BookOpen,
+  Tractor
+} from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Services() {
@@ -10,93 +26,119 @@ export default function Services() {
   const services = [
     {
       icon: GraduationCap,
+      title: t('setuSuvidhaForms'),
+      description: [
+        { label: t('setuSuvidhaDesc1'), whatsappText: 'राहिवास प्रमाणपत्र' },
+        { label: t('setuSuvidhaDesc2'), whatsappText: 'उत्पन्नाचा दाखला' },
+        { label: t('setuSuvidhaDesc3'), whatsappText: 'जात प्रमाणपत्र' },
+        { label: t('setuSuvidhaDesc4'), whatsappText: 'वय, राष्ट्रीयता आणि अधिवास प्रमाणपत्र' },
+        { label: t('setuSuvidhaDesc5'), whatsappText: 'इडब्ल्यूएस प्रमाणपत्र' },
+      ],
+      gradient: 'from-blue-500 to-blue-600'
+    },
+    {
+      icon: Tractor,
+      title: t('mahadbtForms'),
+      description: [
+        { label: t('mahadbtdesc1'), whatsappText: 'आले पीकासाठी अनुदान' },
+        { label: t('mahadbtdesc2'), whatsappText: 'कांदा चाळीसाठी अनुदान' },
+        { label: t('mahadbtdesc3'), whatsappText: 'ट्रॅक्टर अनुदान' },
+        { label: t('mahadbtdesc4'), whatsappText: 'फळबाग लागवडीसाठी अनुदान' },
+        { label: t('mahadbtdesc5'), whatsappText: 'ठिबक सिंचनासाठी अनुदान' },
+      ],
+      gradient: 'from-blue-500 to-blue-600'
+    },
+    {
+      icon: Tractor,
+      title: t('pikvimaform'),
+      description: [
+        { label: t('pikvimadesc1'), whatsappText: 'रब्बी हंगाम ' },
+        { label: t('pikvimadesc2'), whatsappText: 'खरीप हंगाम' },
+
+
+      ],
+      gradient: 'from-blue-500 to-blue-600'
+    },
+    {
+      icon: GraduationCap,
       title: t('admissionForms'),
       description: t('admissionDesc'),
-      color: 'blue',
       gradient: 'from-blue-500 to-blue-600'
     },
     {
       icon: Award,
       title: t('scholarshipForms'),
       description: t('scholarshipDesc'),
-      color: 'emerald',
       gradient: 'from-emerald-500 to-emerald-600'
     },
     {
       icon: FileText,
       title: t('govExamForms'),
       description: t('govExamDesc'),
-      color: 'orange',
       gradient: 'from-orange-500 to-orange-600'
     },
     {
       icon: DollarSign,
       title: t('incomeCert'),
       description: t('incomeDesc'),
-      color: 'purple',
       gradient: 'from-purple-500 to-purple-600'
     },
     {
       icon: Home,
       title: t('residenceCert'),
       description: t('residenceDesc'),
-      color: 'indigo',
       gradient: 'from-indigo-500 to-indigo-600'
     },
     {
       icon: Users,
       title: t('ewsCert'),
       description: t('ewsDesc'),
-      color: 'pink',
       gradient: 'from-pink-500 to-pink-600'
     },
     {
       icon: Certificate,
       title: t('casteCert'),
       description: t('casteDesc'),
-      color: 'teal',
       gradient: 'from-teal-500 to-teal-600'
     },
     {
       icon: CheckSquare,
       title: t('casteValidity'),
       description: t('casteValidityDesc'),
-      color: 'cyan',
       gradient: 'from-cyan-500 to-cyan-600'
     },
     {
       icon: Building2,
       title: t('udyogAadhar'),
       description: t('udyogDesc'),
-      color: 'amber',
       gradient: 'from-amber-500 to-amber-600'
     },
     {
       icon: BookOpen,
       title: t('annasahebPatil'),
       description: t('annasahebDesc'),
-      color: 'rose',
       gradient: 'from-rose-500 to-rose-600'
     },
     {
       icon: CreditCard,
       title: t('panCard'),
       description: t('panDesc'),
-      color: 'violet',
       gradient: 'from-violet-500 to-violet-600'
     },
     {
       icon: UserCheck,
       title: t('aadhaar'),
       description: t('aadhaarDesc'),
-      color: 'green',
       gradient: 'from-green-500 to-green-600'
     },
   ];
 
+  const whatsappNumber = '919767684236'; // Replace with your actual WhatsApp number
+
   return (
     <section id="services" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -125,15 +167,44 @@ export default function Services() {
                   {service.title}
                 </h3>
 
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {service.description}
-                </p>
+                {Array.isArray(service.description) ? (
+                  <ol className="list-decimal list-inside text-gray-600 text-sm space-y-1">
+                    {service.description.map((item, i) => (
+                      <li key={i}>
+                        <a
+                          href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(item.whatsappText)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:underline"
+                        >
+                          {item.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                ) : (
+                  <p className="text-gray-600 text-sm leading-relaxed">
+                    {service.description}
+                  </p>
+                )}
 
-                <div className="mt-4 pt-4 border-t border-gray-100">
+                {/* <div className="mt-4 pt-4 border-t border-gray-100">
                   <button className="text-blue-600 text-sm font-medium hover:text-blue-700 transition-colors">
                     Learn More →
                   </button>
+                </div> */}
+
+                <div className="mt-4 pt-4 border-t border-gray-100">
+                  <a
+                    href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello, I want help with: ${service.title}`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 text-sm font-medium hover:text-blue-700 transition-colors inline-block"
+                  >
+                    Learn More →
+                  </a>
                 </div>
+
               </div>
             );
           })}
@@ -146,9 +217,12 @@ export default function Services() {
             <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
               Our experienced team is ready to assist you with all your government and educational service needs. Get professional guidance and guaranteed results.
             </p>
-            <a href="https://wa.me/919767684236" // replace with your number
+            <a
+              href={`https://wa.me/${whatsappNumber}`}
               target="_blank"
-              rel="noopener noreferrer" className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-200">
+              rel="noopener noreferrer"
+              className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-200"
+            >
               Contact Us Today
             </a>
           </div>

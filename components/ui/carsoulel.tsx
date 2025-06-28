@@ -83,35 +83,80 @@ const ShopCarousel = () => {
     }, []);
 
     return (
-        <div className="relative h-screen w-full overflow-hidden">
+        // <div className="relative h-screen w-full overflow-hidden">
+        //     {images.map((img, index) => (
+        //         <div
+        //             key={index}
+        //             className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === current ? "opacity-100 z-10" : "opacity-0 z-0"
+        //                 }`}
+        //         >
+        //             <img
+        //                 src={img.src}
+        //                 alt={`Shop ${index}`}
+        //                 className="w-full h-full object-contain"
+        //             />
+        //             <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+        //                 <h1 className="text-white text-4xl md:text-6xl font-bold animate-fadeInDown">
+        //                     {t("heroTitle")}
+        //                 </h1>
+        //             </div>
+        //         </div>
+        //     ))}
+        //     <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-2">
+        //         {images.map((_, i) => (
+        //             <span
+        //                 key={i}
+        //                 className={`w-3 h-3 rounded-full ${i === current ? "bg-white" : "bg-white/50"
+        //                     }`}
+        //             ></span>
+        //         ))}
+        //     </div>
+        // </div>
+        <div className="relative h-screen w-full overflow-hidden font-sans">
             {images.map((img, index) => (
                 <div
                     key={index}
-                    className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === current ? "opacity-100 z-10" : "opacity-0 z-0"
-                        }`}
+                    className={`absolute inset-0 transition-all duration-1000 ease-in-out transform
+        ${index === current ? "opacity-100 z-20 scale-100" : "opacity-0 z-0 scale-105"}
+      `}
                 >
                     <img
                         src={img.src}
-                        alt={`Shop ${index}`}
-                        className="w-full h-full object-contain"
+                        alt={`Slide ${index}`}
+                        className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                        <h1 className="text-white text-4xl md:text-6xl font-bold animate-fadeInDown">
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
+                        <h1 className="text-white text-4xl md:text-6xl font-extrabold drop-shadow-lg animate-slide-in">
                             {t("heroTitle")}
                         </h1>
+                        <p className="mt-4 text-white text-lg md:text-2xl font-medium max-w-3xl animate-fade-in">
+                            {t("heroSubtitle")}
+                        </p>
+                        <button
+                            onClick={() => window.open("https://wa.me/919767684236", "_blank")}
+                            className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-full shadow-md hover:bg-black hover:text-white transition-colors duration-300 animate-fade-in"
+                        >
+                            {t("ctaButton") || "Explore Now"}
+                        </button>
+
                     </div>
                 </div>
             ))}
-            <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-2">
+
+            {/* Dots */}
+            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-3 z-30">
                 {images.map((_, i) => (
                     <span
                         key={i}
-                        className={`w-3 h-3 rounded-full ${i === current ? "bg-white" : "bg-white/50"
-                            }`}
+                        className={`w-3 h-3 rounded-full transition-all duration-300
+          ${i === current ? "bg-white scale-110 shadow" : "bg-white/40"}
+        `}
                     ></span>
                 ))}
             </div>
         </div>
+
     );
 };
 

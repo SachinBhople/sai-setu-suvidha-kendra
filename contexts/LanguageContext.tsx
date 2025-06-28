@@ -22,6 +22,7 @@ const translations = {
     heroTitle: 'Sai Setu Suvidha Kendra',
     address: 'Dongargaon Kawad, Tq Phulambri, Dist Chhatrapati Sambhajinagar',
     heroSubtitle: 'Your Trusted Partner for Government Services & Educational Applications',
+    ctaButton: 'Get Started',
     heroDescription: 'Complete assistance for certificates, admissions, scholarships, and business registrations. Professional service with guaranteed results.',
     getStarted: 'Get Started',
     learnMore: 'Learn More',
@@ -38,6 +39,7 @@ const translations = {
     setuSuvidhaDesc4: 'Age, Nationality and Domicile Certificate ',
     setuSuvidhaDesc5: 'Ews Certificate ',
 
+
     mahadbtForms: 'Mahadbt Schemes',
     mahadbtdesc1: 'Subsidy for ginger crop,  ',
     mahadbtdesc2: ' onion paddy  ',
@@ -48,6 +50,17 @@ const translations = {
     pikvimaform: 'Crop Insurance Schemes',
     pikvimadesc1: 'Rabbi Season ',
     pikvimadesc2: 'Kharif Season ',
+    pikvimadesc3: 'Orchard crop insurance ',
+
+
+    bandkamkamgarform: 'Construction Worker Form',
+    bandkamkamgardesc1: 'Construction Worker Registration',
+    bandkamkamgardesc2: 'Construction Worker Renewal Form',
+    bandkamkamgardesc3: 'Scholarship Application for Children of Construction Workers',
+    bandkamkamgardesc4: 'Utensil Set Application for Registered Construction Workers',
+
+    farmerIdform: 'Farmer ID Application',
+    farmerIddesc: 'To receive the ₹2000 installment under PM-Kisan, obtaining a Farmer ID is mandatory.',
 
     admissionForms: 'College Admission Forms',
     admissionDesc: 'Assistance with admission applications for all colleges and universities',
@@ -75,6 +88,12 @@ const translations = {
     panDesc: 'New PAN card application and corrections',
     aadhaar: 'Aadhaar Services',
     aadhaarDesc: 'Aadhaar enrollment, updates, and corrections',
+    shopact: 'Shop Act Registration',
+    shopactDesc: 'We help you with new Shop Act registration and renewal quickly and hassle-free.',
+    oldpeopleform: 'Senior Artist Pension Scheme',
+    oldpeopleformdesc: 'You can avail the benefits by filling the Senior Artist Pension Scheme form.',
+    sanjaygandhiFrom: 'Sanjay Gandhi Niradhar and Shravan Bal Scheme',
+    sanjaygandhidesc: 'You can avail the benefits of the Sanjay Gandhi Niradhar and Shravan Bal Scheme by submitting the application form.',
 
     // About
     aboutTitle: 'About Sai Setu Suvidha Kendra',
@@ -119,6 +138,7 @@ const translations = {
     heroTitle: 'साई डिजिटल ऑनलाईन सेवा केंद्र ',
     address: 'डोंगरगाव  कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर',
     heroSubtitle: 'सरकारी सेवाओं और शैक्षणिक आवेदनों के लिए आपका विश्वसनीय साझेदार',
+    ctaButton: 'शुरू करें',
     heroDescription: 'प्रमाणपत्र, प्रवेश, छात्रवृत्ति और व्यापार पंजीकरण के लिए पूर्ण सहायता। गारंटीशुदा परिणाम के साथ पेशेवर सेवा।',
     getStarted: 'शुरू करें',
     learnMore: 'और जानें',
@@ -145,7 +165,18 @@ const translations = {
     pikvimaform: 'फसल बीमा योजनाएँ',
     pikvimadesc1: 'रबी मौसम ',
     pikvimadesc2: 'खरीफ मौसम ',
+    pikvimadesc3: 'बाग़ फसल बीमा ',
 
+
+    bandkamkamgarform: 'बांधकाम कामगार फॉर्म',
+    bandkamkamgardesc1: 'बांधकाम श्रमिक पंजीकरण',
+    bandkamkamgardesc2: 'बांधकाम श्रमिक नवीनीकरण फॉर्म',
+    bandkamkamgardesc3: 'बांधकाम श्रमिकों के बच्चों के लिए छात्रवृत्ति आवेदन',
+    bandkamkamgardesc4: 'पंजीकृत श्रमिकों को मिलने वाले बर्तन सेट के लिए आवेदन फॉर्म',
+
+
+    farmerIdform: 'किसान आईडी आवेदन',
+    farmerIddesc: 'पीएम किसान की ₹2000 किस्त प्राप्त करने के लिए किसान आईडी बनवाना आवश्यक है।',
 
     admissionForms: 'कॉलेज प्रवेश फॉर्म',
     admissionDesc: 'सभी कॉलेजों और विश्वविद्यालयों के लिए प्रवेश आवेदन में सहायता',
@@ -171,6 +202,12 @@ const translations = {
     panDesc: 'नया पैन कार्ड आवेदन और सुधार',
     aadhaar: 'आधार सेवाएं',
     aadhaarDesc: 'आधार नामांकन, अपडेट और सुधार',
+    shopact: 'दुकान अधिनियम पंजीकरण',
+    shopactDesc: 'हम आपकी नई दुकान अधिनियम पंजीकरण और नवीनीकरण की प्रक्रिया आसान और जल्दी पूरी करते हैं।',
+    oldpeopleform: 'वरिष्ठ कलाकार मानधन योजना',
+    oldpeopleformdesc: 'वरिष्ठ कलाकार मानधन योजना का फॉर्म भरकर लाभ प्राप्त किया जा सकता है।',
+    sanjaygandhiFrom: 'संजय गांधी निराश्रित एवं श्रावण बाल योजना',
+    sanjaygandhidesc: 'संजय गांधी निराश्रित एवं श्रावण बाल योजना का लाभ आवेदन करके प्राप्त किया जा सकता है।',
 
     // About
     aboutTitle: 'साई डिजिटल ऑनलाईन सेवा केंद्र  के बारे में',
@@ -215,6 +252,7 @@ const translations = {
     heroTitle: 'साई डिजिटल ऑनलाईन सेवा केंद्र ',
     address: 'डोंगरगाव  कवाड, तालुका फुलंब्री, जिल्हा छत्रपती संभाजीनगर',
     heroSubtitle: 'सरकारी सेवा आणि शैक्षणिक अर्जांसाठी तुमचा विश्वासार्ह भागीदार',
+    ctaButton: 'सुरुवात करा',
     heroDescription: 'प्रमाणपत्रे, प्रवेश, शिष्यवृत्ती आणि व्यवसाय नोंदणीसाठी संपूर्ण सहाय्य। हमीशुदा परिणामासह व्यावसायिक सेवा.',
     getStarted: 'सुरुवात करा',
     learnMore: 'अधिक जाणून घ्या',
@@ -242,11 +280,25 @@ const translations = {
     pikvimaform: 'पीक विमा योजना',
     pikvimadesc1: 'रब्बी हंगाम ',
     pikvimadesc2: 'खरीप हंगाम ',
+    pikvimadesc3: 'फळबाग पीकविमा  ',
+
+
+    bandkamkamgarform: 'बांधकाम कामगार फॉर्म',
+    bandkamkamgardesc1: 'बांधकाम कामगार नवीन नोंदणी',
+    bandkamkamgardesc2: 'बांधकाम कामगार नूतनीकरण फॉर्म',
+    bandkamkamgardesc3: 'बांधकाम कामगारच्या मुलांसाठी शिष्यवृत्ती अर्ज',
+    bandkamkamgardesc4: 'नोंदीत बांधकाम कामगारांना  मिळणाऱ्या भांडी संच साठी अर्ज ',
 
 
 
     admissionForms: 'महाविद्यालयीन प्रवेश फॉर्म',
     admissionDesc: 'सर्व महाविद्यालये आणि विद्यापीठांसाठी प्रवेश अर्जामध्ये सहाय्य',
+
+
+    farmerIdform: 'फार्मर आयडी  अर्ज',
+    farmerIddesc: 'यानंतर पीएम किसान चे २००० पाहिजे असेल तर फार्मर आयडी काढणे आवश्यक आहे ',
+
+
     scholarshipForms: 'शिष्यवृत्ती अर्ज',
     scholarshipDesc: 'विविध शिष्यवृत्ती अर्ज आणि कागदपत्रांमध्ये मदत',
     govExamForms: 'शासकीय परीक्षा फॉर्म',
@@ -269,6 +321,16 @@ const translations = {
     panDesc: 'नवीन पॅन कार्ड अर्ज आणि सुधारणा',
     aadhaar: 'आधार सेवा',
     aadhaarDesc: 'आधार नावनोंदणी, अपडेट आणि सुधारणा',
+
+    shopact: 'Shop Act नोंदणी',
+    shopactDesc: 'आम्ही नवीन Shop Act नोंदणी आणि नूतनीकरण जलद व सोप्या पद्धतीने करून देतो.',
+
+    oldpeopleform: 'वयोवृद्ध कलावंत मानधन योजना ',
+    oldpeopleformdesc: 'वयोवृद्ध कलावंत मानधन योजना फॉर्म भरून मिळेल .',
+
+    sanjaygandhiFrom: 'संजय गांधी निराधार व श्रावण बाळ योजना  ',
+    sanjaygandhidesc: 'संजय गांधी निराधार व श्रावण बाळ योजना अर्ज करून मिळेल  .',
+
 
     // About
     aboutTitle: 'साई डिजिटल ऑनलाईन सेवा केंद्राबद्दल',
